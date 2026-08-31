@@ -1,4 +1,4 @@
-> *For the English version of the README, click [here](README.md).*
+> 🇬🇧 *For the English version of the README, click [here](README.md).*
 
 # CEM Multi-Tool
 
