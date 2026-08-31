@@ -1,6 +1,8 @@
+> *For the English version of the README, click [here](README.md).*
+
 # CEM Multi-Tool
 
-Petit outil en ligne de commande écrit en Python, qui regroupe une vingtaine de fonctions utiles : réseau, chiffrement/hash, système, et quelques utilitaires divers.
+Petit outil en ligne de commande écrit en Python, qui regroupe une vingtaine de fonctions utiles : réseau, chiffrement/hash, système et quelques utilitaires divers.
 
 ## Fonctionnalités
 
@@ -38,27 +40,5 @@ Petit outil en ligne de commande écrit en Python, qui regroupe une vingtaine de
 - Python 3
 - Le module `requests`
 
-```
+```bash
 pip install requests
-```
-
-## Utilisation
-
-```
-python cem_multitool.py
-```
-
-Un menu s'affiche, il suffit de rentrer le numéro de l'option voulue.
-
-Une cible peut aussi être passée en argument pour lancer directement un scan de ports rapide :
-
-```
-python cem_multitool.py 192.168.1.1
-```
-
-Les résultats du scanner de ports et de la vérification des en-têtes HTTP peuvent être exportés en JSON.
-
-## Notes
-
-Le scanner de ports ne teste qu'une liste fixe de ports courants (21, 22, 80, 443, 3306, 8080). À utiliser sur ses propres machines et réseaux.
-
